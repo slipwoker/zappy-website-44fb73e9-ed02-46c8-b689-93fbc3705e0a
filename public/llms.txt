@@ -1,0 +1,53 @@
+# סטודיו 242 — Generative Engine Optimization Map
+
+> A עיצוב פנים ומיתוג מרחבי business.
+
+---
+
+## Pages
+
+### Home
+https://242-44fb73e9.zappy5.app
+
+### About
+https://242-44fb73e9.zappy5.app/about
+
+### Services
+https://242-44fb73e9.zappy5.app/services
+
+### Contact
+https://242-44fb73e9.zappy5.app/contact
+
+## Legal & Policy
+
+### Privacy Policy
+https://242-44fb73e9.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://242-44fb73e9.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://242-44fb73e9.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About סטודיו 242
+סטודיו 242 is a business in the עיצוב פנים ומיתוג מרחבי industry.
+
+## Target Audience
+חברות הייטק, משרדים חדשים, קליניקות, חללי עבודה ומנהלי שיווק
+
+## Industry
+עיצוב פנים ומיתוג מרחבי
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://242-44fb73e9.zappy5.app/sitemap.xml
+- **Robots.txt**: https://242-44fb73e9.zappy5.app/robots.txt

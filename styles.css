@@ -4901,6 +4901,43 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   FIX: nav-menu desktop flex+justify for logo adjacency
+   Problem: Sites without .nav-right-group wrapper have nav-menu centered
+   due to justify-content: space-between distributing 3 items evenly AND
+   the nav-menu itself using justify-content: center.
+   Fix: flex:1 fills the gap, justify-content:flex-start pushes items to the
+   logo side (LTR = left, RTL = right).
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media (min-width: 769px) {
+  .nav-menu {
+    flex: 1 !important;
+    justify-content: flex-start !important;
+  }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   FIX: mobile nav-brand vertical centering
+   Problem: AI uses top:50% + margin-top:-Npx for centering, but the service's
+   margin:0 auto !important resets margin-top, pushing the logo down.
+   Fix: Use transform:translate(-50%,-50%) for robust centering on both axes.
+   Also ensure nav-container is position:relative so top:50% is relative to it.
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .nav-container {
+    position: relative !important;
+  }
+  .nav-brand {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+  }
+}
+
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
